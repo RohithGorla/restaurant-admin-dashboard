@@ -1,5 +1,7 @@
 import axios from "axios";
 
-export default axios.create({
-  baseURL: "http://localhost:5000/api",
+const api = axios.create({
+  baseURL: "https://restaurant-admin-dashboard-3g0l.onrender.com/api",
 });
+
+export default api;
